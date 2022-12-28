@@ -1,0 +1,30 @@
+.margin{
+    /* margin-top: -158px; */
+}
+.gradient {
+    background: linear-gradient(90deg, #8a8989 0%, #3b3a3a 100%);
+  }
+  #visiter{
+    display: flex;
+    padding: 20px;
+    
+
+  }
+  #map{
+     width :600px ;
+     height :450px ;
+  }
+ 
+@media (max-width: 575px){
+    #map{
+        width :200px ;
+        height :190px ;
+     }
+
+  #visiter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+  }
+}
